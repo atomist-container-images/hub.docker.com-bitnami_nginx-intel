@@ -1,12 +1,27 @@
-# Tags: latest, 0.4.7-debian-10-r62, 0.4.7, 0-debian-10, 0
+# Tags: latest, 0.4.7-debian-10-r67, 0.4.7, 0-debian-10, 0
 FROM bitnami/nginx-intel:latest
-FROM bitnami/nginx-intel:0.4.7-debian-10-r62
+FROM bitnami/nginx-intel:0.4.7-debian-10-r67
 FROM bitnami/nginx-intel:0.4.7
 FROM bitnami/nginx-intel:0-debian-10
 FROM bitnami/nginx-intel:0
 
 # Tags: _
 FROM bitnami/nginx-intel:_
+
+# Tags: 0.4.7-debian-10-r66
+FROM bitnami/nginx-intel:0.4.7-debian-10-r66
+
+# Tags: 0.4.7-debian-10-r65
+FROM bitnami/nginx-intel:0.4.7-debian-10-r65
+
+# Tags: 0.4.7-debian-10-r64
+FROM bitnami/nginx-intel:0.4.7-debian-10-r64
+
+# Tags: 0.4.7-debian-10-r63
+FROM bitnami/nginx-intel:0.4.7-debian-10-r63
+
+# Tags: 0.4.7-debian-10-r62
+FROM bitnami/nginx-intel:0.4.7-debian-10-r62
 
 # Tags: 0.4.7-debian-10-r61
 FROM bitnami/nginx-intel:0.4.7-debian-10-r61
@@ -79,18 +94,3 @@ FROM bitnami/nginx-intel:0.4.7-debian-10-r39
 
 # Tags: 0.4.7-debian-10-r38
 FROM bitnami/nginx-intel:0.4.7-debian-10-r38
-
-# Tags: 0.4.7-debian-10-r36
-FROM bitnami/nginx-intel:0.4.7-debian-10-r36
-
-# Tags: 0.4.7-debian-10-r35
-FROM bitnami/nginx-intel:0.4.7-debian-10-r35
-
-# Tags: 0.4.7-debian-10-r34
-FROM bitnami/nginx-intel:0.4.7-debian-10-r34
-
-# Tags: 0.4.7-debian-10-r33
-FROM bitnami/nginx-intel:0.4.7-debian-10-r33
-
-# Tags: 0.4.7-debian-10-r32
-FROM bitnami/nginx-intel:0.4.7-debian-10-r32
